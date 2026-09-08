@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Complete Filters - Compatibility
 ! Description: Combined filter list for the compatibility category.
-! Last modified: 07 Sep 2026 01:23:45 UTC
+! Last modified: 08 Sep 2026 01:20:32 UTC
 ! Expires: 6 hours
 ! Homepage: https://github.com/rokartur/complete-filters
 ! Source count: 14 / 14
 !
 ! ===== SOURCE: https://filters.adtidy.org/android/filters/11.txt
-! Diff-Path: ../patches/11/11-s-1788689758-3600.patch
+! Diff-Path: ../patches/11/11-s-1788779804-3600.patch
 !
 !---------------------------------------------------------------------------!
 !-------------- Advertising networks ---------------------------------------!
@@ -2709,6 +2709,8 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+merkmal-biz.jp##div.box:has(> div[style] > div[id^="div-gpt-ad-"])
+merkmal-biz.jp##div.box:has(> div[id^="yad_"])
 arknights.wikiru.jp###content > div[data-cptid]
 football-zone.net###c2_click_endofarticle_JFA_adidas_sp
 fineplay.me##.sp.banner_contents
@@ -2922,7 +2924,8 @@ hochi.news##.kyujin__head
 timeshighereducation.com##.pane-multiple-hub-traffic-drivers
 article.auone.jp##.infeed__large--block
 s.kabutan.jp##main > div > div.justify-center[style="min-height:280px;"]
-yay.porn,1porno.net##.rekspan
+full-porn.com##.mobile-rek-height
+full-porn.com,yay.porn,1porno.net##.rekspan
 fishingjapan.jp##.common__adv_chowari_app
 greatandhra.com##.mob-Ad
 meteo60.fr##.encart750x300
@@ -3023,8 +3026,8 @@ cdn.ampproject.org##.ad-control-left
 trilltrill.jp##.RecruitmentBoxNew
 lezzet.com.tr##.db-ads
 trashbox.ru#%#//scriptlet('set-constant', 'bw_no_ad', 'noopFunc')
-suki-kira.com#$##im_interstitial_b { display: none !important; }
-suki-kira.com#$#body[style="overflow: hidden;"] { overflow: auto !important; }
+kurukura.jp,suki-kira.com#$##im_interstitial_b { display: none !important; }
+kurukura.jp,suki-kira.com#$#body[style="overflow: hidden;"] { overflow: auto !important; }
 ||ogfap.com/_astro/AdContainer.
 ogfap.com#%#//scriptlet('trusted-set-local-storage-item', 'ad-shown', '$now$')
 ogfap.com#%#//scriptlet('trusted-set-local-storage-item', 'ad-modal-visible', '$now$')
@@ -4385,7 +4388,7 @@ ft.com##.o-ads
 news.audee.jp###sp_UZOUSPbnr
 m.airporthaber2.com##.Banner
 utaten.com##div[style="height: 180px; margin-bottom: 10px;"]
-chosun.com##iframe[title="Advertisement"]
+ecchizen.com,chosun.com##iframe[title="Advertisement"]
 guru.porn,hdporno.xxx,poz.xxx,pornbaron.net,porn2.xxx,watch.xxx,tubeporn.site,myporn.tube,pornfree.gg,porn69.xxx,beeg.gg,porntek.com,haha.xxx,longvideos.xxx,hdporner.org,porno.wiki,3porn.gg,33porn.net,hqporner.gg,300.porn,sexyporn.org,pornstars.gg,sexvideos.gg,ixxx.gg,sexyporn.xxx,pornhd.tube,porn36.com,porn9.xxx,porn13.org,bee.xxx,filmz.xxx,xfilms.org,xporn.gg,porndo.net,tor.xxx,bestporn.gg,eporn.xxx,fullpornvideos.xxx,24porn.biz,bigporn.org,pornfulls.com,fullmovies.xxx,pornvideos.gg,pornfilms.xxx,hdporn.gg,txxx.porn,porntube.gg,1porn.tv,freeporn.gg,freepornmovies.net,freeporntube.tv,freesexvideos.xxx,wow.xxx,fullhd.xxx,many.xxx,porner.xxx,fullvideos.xxx,omg.xxx,4kporno.xxx,fullporn.*,fullporno.xxx,freepornvideos.xxx##.ft
 blogtag.ameba.jp##ul > div[class]:has(> div > div[id^="div-gpt-ad-"])
 blogtag.ameba.jp##aside > div[class]:has(> div > div[id^="div-gpt-ad-"])
@@ -12276,8 +12279,8 @@ youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAd
 www.youtube.com##+js(rpnt, script, (function serverContract(), (()=>{if("YOUTUBE_PREMIUM_LOGO"===ytInitialData?.topbar?.desktopTopbarRenderer?.logo?.topbarLogoRenderer?.iconImage?.iconType||location.href.startsWith("https://www.youtube.com/tv#/")||location.href.startsWith("https://www.youtube.com/embed/"))return;const e=ytcfg.data_.INNERTUBE_CONTEXT.client.userAgent\,t=t=>{ytcfg.data_.INNERTUBE_CONTEXT.client.userAgent=t?e.replace?.(/(Mozilla\/5\.0 \([^)]+)/\,"$1; "+t):e}\,o=["channel"\,"lactmilli"];let r=!1\,n=o;document.addEventListener("DOMContentLoaded"\,(function(){const e=()=>{const e=document.getElementById("movie_player");if(!e||!window.location.href.includes("/watch?"))return void(n=o);const a=e.getPlayerResponse?.()\,i=e.getProgressState?.()\,s=e.getStatsForNerds?.();let l\,d;if(i&&i.duration>0&&(i.loaded<i.duration||i.duration-i.current>1)||a?.videoDetails?.isLive){if(!s?.debug_info?.startsWith?.("SSAP\, AD")){const o=a.videoDetails?.videoId\,c=a.playerConfig?.playbackStartConfig?.startSeconds??0\,u=e.getPlayerStateObject?.()?.isBuffering\,y=a.playabilityStatus?.errorScreen\,p=JSON.stringify(y?.playerErrorMessageRenderer?.subreason?.runs||y?.playerInterstitialRenderer?.content?.interstitialViewModel?.description?.commandRuns);return void("UNPLAYABLE"===a?.playabilityStatus?.status&&!y?.playerErrorMessageRenderer?.playerCaptchaViewModel&&p?.includes?.("WEB_PAGE_TYPE_UNKNOWN")&&p?.includes?.("https://support.google.com/youtube/answer/3037019")?(n=n.slice(1)\,n.length>0?t(n[0]):t("")\,r=!1\,e.loadVideoById(o\,c)):0===n.length?(r=!1\,t("")):u&&"0.00 s"===s?.buffer_health_seconds&&"0x0"===s?.resolution&&r?(t(n[0])\,r=!1\,e.loadVideoById(o\,c)):!r&&i.current-c<5&&location.href.includes("&list=")&&null===e.getPlaylistId?.()&&(l=document.querySelector("yt-playlist-manager")\,d=l?.getPlaylistData?.()\,d&&(l.setPlaylistData?.(d)\,l.setPlayerPlaybackControlData?.({playlistPanelRenderer:d}))))}i.duration>0&&e.seekTo?.(i.duration)}};e()\,new MutationObserver((()=>{e()})).observe(document\,{childList:!0\,subtree:!0})}))\,window.Map.prototype.has=new Proxy(window.Map.prototype.has\,{apply:(e\,t\,o)=>{if("onSnackbarMessage"===o?.[0]&&!r){const e=document.getElementById("movie_player");if(!e)return;const t=e.getStatsForNerds?.()\,o=e.getPlayerStateObject?.()?.isBuffering\,a=e.getPlayerResponse?.()?.playbackTracking?.videostatsPlaybackUrl?.baseUrl;o&&"0.00 s"===t?.buffer_health_seconds&&"0x0"===t?.resolution&&n.length>0&&(a.includes("reloadxhr")&&(n=n.slice(1))\,r=!0)}return Reflect.apply(e\,t\,o)}});const a={apply:(e\,t\,o)=>{const r=o[0];return"function"==typeof r&&r.toString().includes("onAbnormalityDetected")&&(o[0]=function(){})\,Reflect.apply(e\,t\,o)}};window.Promise.prototype.then=new Proxy(window.Promise.prototype.then\,a)})();(function serverContract(), sedCount, 1, excludes, MutationObserver)
 www.youtube.com##+js(trusted-json-edit-xhr-request, [?..userAgent*="channel"]..client[?.clientName=="WEB"]+={"clientScreen":"CHANNEL"}, propsToMatch, /player?)
 www.youtube.com##+js(trusted-json-edit-xhr-request, [?..userAgent*="lactmilli"]+={"params":"8AUB"}, propsToMatch, /player?)
-www.youtube.com##+js(trusted-json-edit-xhr-request, [?..userAgent*="lactmilli"]..playbackContext.contentPlaybackContext.lactMilliseconds="${now}", propsToMatch, /player?)
-www.youtube.com##+js(trusted-json-edit-xhr-request, [?..userAgent=/adunit|channel|lactmilli|instream|inline|eafg/]..referer=repl({"regex":"(?:#reloadxhr)?$"\,"replacement":"#reloadxhr"}), propsToMatch, /player?)
+www.youtube.com##+js(trusted-json-edit-xhr-request, [?..userAgent=/channel|lactmilli|instream/]..playbackContext.contentPlaybackContext.lactMilliseconds="${now}", propsToMatch, /player?)
+www.youtube.com##+js(trusted-json-edit-xhr-request, [?..userAgent=/adunit|channel|lactmilli|instream|inline|yahi|eafg/]..referer=repl({"regex":"(?:#reloadxhr)?$"\,"replacement":"#reloadxhr"}), propsToMatch, /player?)
 ! https://github.com/uBlockOrigin/uAssets/issues/30157#issuecomment-5206026055
 www.youtube.com##+js(set, ytcfg.data_.EXPERIMENT_FLAGS.all_web_enable_network_machine, false)
 www.youtube.com##+js(set, ytcfg.data_.EXPERIMENT_FLAGS.all_web_network_machine_raw_request, false)
@@ -12769,7 +12772,11 @@ igorslab.de###extras > #single-sticky + div[class]:not([id]):has(a[href][target=
 igorslab.de##.entry-content > #skio-article-bar ~ div[id][class]:not([class*="igorslab"]):has(a[href][target="_blank"] img)
 igorslab.de##a[target] img[src^="blob:"]
 igorslab.de##.herald-above-footer
-/^https:\/\/www\.igorslab\.de\/[a-z0-9]+\/[\/a-zA-Z0-9_-]+$/$image,1p,match-case,domain=igorslab.de,redirect=32x32.png
+/^https:\/\/www\.igorslab\.de\/[a-z0-9]+\/[\/a-zA-Z0-9_-]+$/$image,1p,match-case,redirect=32x32.png
+/^https:\/\/www\.igorslab\.de\/wp-content\/uploads\/202\d\/\d{2}\/(?=[a-z]*\d)(?=\d*[a-z])[0-9a-z]{7,15}\.(?:pn|jp)g$/$image,1p,match-case,redirect=32x32.png
+igorslab.de##a[href^="https://www.igorslab.de/"][target][rel]:matches-attr(href="/https:\/\/www\.igorslab\.de\/(?=[\/0-9_a-z-]*[A-Z])[\/0-9A-Z_a-z-]{130,}/")
+igorslab.de##span[aria-label][role="img"][style*="data:image"]
+igorslab.de##span[aria-label][role="img"][style*="data:image"] + a
 
 ! https://github.com/AdguardTeam/AdguardFilters/commit/5c28205f2e1baccf177db23ee0df2fd15090238d
 sugoren.com#@#.widget
@@ -19014,5 +19021,5 @@ ridge.com##+js(set, baMet.register, noopFunc)
 @@||*.protondb.pages.dev^
 
 
-! Total unique rules: 13106
+! Total unique rules: 13113
 ! Duplicates removed: 16
