@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Complete Filters - Mobile
 ! Description: Combined filter list for the mobile category.
-! Last modified: 08 Sep 2026 01:20:45 UTC
+! Last modified: 09 Sep 2026 01:20:04 UTC
 ! Expires: 6 hours
 ! Homepage: https://github.com/rokartur/complete-filters
 ! Source count: 9 / 9
@@ -10,7 +10,7 @@
 ! Android host file - Adaway
 ! 
 ! Title: ABPVN Hosts
-! Updated: 31 Aug 2026 22:44 UTC+7
+! Updated: 08 Sep 2026 15:55 UTC+7
 ! License: ABPVN
 ! Please report any unblocked ads or problems by email or in our forums
 ! Email: support@abpvn.com
@@ -16107,6 +16107,7 @@
 ||aff.adsoca.com^
 ||aff.bstatic.com^
 ||aff2.childish2x2.fun^
+||affairchessdocile.com^
 ||affbuzzads.com^
 ||affcpatrk.com^
 ||affec.tv^
@@ -16225,6 +16226,7 @@
 ||anxiousapples.com^
 ||anym8.com^
 ||anymedia.lv^
+||anytimebananarecoil.com^
 ||ap2h9d2g3.com^
 ||apercusdimly.com^
 ||apex-ad.com^
@@ -16955,6 +16957,7 @@
 ||culbhiaxntuh.in^
 ||culmedpasses.cam^
 ||culterwhether.com^
+||cupbearergrowllurch.com^
 ||cupoabie.net^
 ||curioushingefast.com^
 ||curtaincows.com^
@@ -17349,6 +17352,7 @@
 ||feedbackresearch.com^
 ||feedjit.com^
 ||feedyourheadmag.com^
+||fervorsixtiesveteran.com^
 ||feuageepitoke.com^
 ||fhsmtrnsfnt.com^
 ||fhvfd.com^
@@ -17463,9 +17467,11 @@
 ||ggreatstuff.com^
 ||ggz48pxys.com^
 ||ghochv3eng.trafficmanager.net^
+||ghudhopaxoks.in^
 ||gi.bagwashhabeas.qpon^
 ||giddycoat.com^
 ||giggedguddle.com^
+||gigglegrowlworrisome.com^
 ||gigglemagnetismunaired.com^
 ||gimoqwmikakv.com^
 ||ginchoirblessed.com^
@@ -17964,6 +17970,7 @@
 ||lemmaheralds.com^
 ||lemmatechnologies.com^
 ||leonodikeu9sj10.com^
+||lethargyplatingsatin.com^
 ||lfalfehuq.com^
 ||lfeorrzkua.com^
 ||lfezjmxldv.com^
@@ -18529,6 +18536,7 @@
 ||outsliggooa.com^
 ||overcrowdsillyturret.com^
 ||overgreedyminddegree.com^
+||oversizedsixtieswiry.com^
 ||overture.com^
 ||ovmhwiccikr.com^
 ||owbltnxzgxq.com^
@@ -21851,21 +21859,27 @@ zdalnakontrola.pl
 ||a0.app.xiaomi.com^
 ||aaid.umeng.com^
 ||abtest-ch.snssdk.com^
+||ad-api.4pyun.com^
 ||ad-cdn.qingting.fm^
+||ad-files.4pyun.com^
 ||ad-scope.com^
 ||ad-scope.com.cn^
 ||ad-sdk-config.youdao.com^
 ||ad-splash-tracking.hktvmall.com^
 ||ad-splash.hktvmall.com^
 ||ad.51wnl.com^
+||ad.bn.netease.com^
 ||ad.bwton.com^
 ||ad.cctv.com^
 ||ad.cyapi.cn^
+||ad.duoduo.link^
 ||ad.gameley.com^
 ||ad.hpplay.cn^
 ||ad.iot.360.cn^
 ||ad.life.360.cn^
+||ad.maoyan.com^
 ||ad.partner.gifshow.com^
+||ad.player.baidu.com^
 ||ad.qingting.fm^
 ||ad.richmob.cn^
 ||ad.shenshiads.com^
@@ -21873,9 +21887,13 @@ zdalnakontrola.pl
 ||ad.tencentmusic.com^
 ||ad.v3mh.com^
 ||ad.winrar.com.cn^
+||ad4.sina.com.cn^
 ||adapi.izuiyou.com^
 ||adapi.yynetwk.com^
+||adash-emas.cn-hangzhou.aliyuncs.com^
+||adbox.sina.com.cn^
 ||adc.hpplay.cn^
+||adcanvas.com^
 ||adcdn.hpplay.cn^
 ||adcdn.tencentmusic.com^
 ||adclick.tencentmusic.com^
@@ -21889,12 +21907,14 @@ zdalnakontrola.pl
 ||adks.hpplay.cn^
 ||adlink-api.huan.tv^
 ||adm.funshion.com^
+||admobile.top^
 ||ads-api-o.api.leiniao.com^
 ||ads-img-al.xhscdn.com^
 ||ads-img-qc.xhscdn.com^
 ||ads-jp.tiktok.com^
 ||ads-marketing-vivofs.vivo.com.cn^
 ||ads-sdk-api.ranfenghd.com^
+||ads-shopping.shouqianba.com^
 ||ads-video-al.xhscdn.com^
 ||ads-video-qc.xhscdn.com^
 ||ads.95516.com^
@@ -21904,6 +21924,7 @@ zdalnakontrola.pl
 ||ads.huan.tv^
 ||ads.huantest.com^
 ||ads.icloseli.cn^
+||ads.ishansong.com^
 ||ads.raidrive.com^
 ||ads.service.kugou.com^
 ||ads.v3mh.com^
@@ -21916,6 +21937,7 @@ zdalnakontrola.pl
 ||ads5-normal-lf.zijieapi.com^
 ||ads5-normal-lq.zijieapi.com^
 ||ads5-normal.zijieapi.com^
+||adscdn.baidu.com^
 ||adsdk.vivo.com.cn^
 ||adse.test.ximalaya.com^
 ||adse.wsa.ximalaya.com^
@@ -21934,8 +21956,10 @@ zdalnakontrola.pl
 ||adsmart.konka.com^
 ||adsmind.ugdtimg.com^
 ||adsp.xunlei.com^
+||adspecs.yahoo.com^
 ||adstat.izuiyou.com^
 ||adstats.tencentmusic.com^
+||adstextview.qq.com^
 ||adstore-1252524079.file.myqcloud.com^
 ||adstore-index-1252524079.file.myqcloud.com^
 ||adstudio-assets.scdn.co^
@@ -21968,6 +21992,7 @@ zdalnakontrola.pl
 ||ali-p2p-v2.pull.yximgs.com^
 ||alicoccdncnc-xn.inter.71edge.com^
 ||alicoccdnct-xn.inter.71edge.com^
+||alltbcsp2p.baidu.com^
 ||analysis.chatglm.cn^
 ||analysis.yozocloud.cn^
 ||analytics.oceanengine.com^
@@ -22049,6 +22074,7 @@ zdalnakontrola.pl
 ||cnlogs.umengcloud.com^
 ||collect.kugou.com^
 ||commdata.v.qq.com^
+||commercial.shouji.360.cn^
 ||conf.hpplay.cn^
 ||config.chsmarttv.com^
 ||cpc-service-square.aiclk.com^
@@ -22070,6 +22096,7 @@ zdalnakontrola.pl
 ||dyp2p-hw.douyucdn.cn^
 ||engine.dcad01.com^
 ||events-drcn.op.dbankcloud.cn^
+||eventv1.leidong.rayenergytech.com^
 ||fancyapi.com^
 ||feed-image.baidu.com^
 ||file.daihuo.qq.com^
@@ -22092,6 +22119,7 @@ zdalnakontrola.pl
 ||grs.hicloud.com^
 ||gslb.hpplay.cn^
 ||gvideo.qpic.cn^
+||gw6.push.mcp.weibo.cn^
 ||h5.analytics.126.net^
 ||h5.hpplay.com.cn^
 ||hanlanad.com^
@@ -22108,6 +22136,8 @@ zdalnakontrola.pl
 ||hugelog.fcbox.com^
 ||huichuan-mc.sm.cn^
 ||huichuan.sm.cn^
+||huodong.ios.shouji.360.cn^
+||huodong.weibo.cn^
 ||hw-ot-ad.a.yximgs.com^
 ||hw-p2p-pull.video-voip.com^
 ||hw-p2p.pull.yximgs.com^
@@ -22118,7 +22148,9 @@ zdalnakontrola.pl
 ||i.l-new.inmobicdn.net^
 ||iad.apple.com^
 ||iad.g.163.com^
+||iadcontent.apple.com^
 ||iadctest.qwapi.com^
+||iadmoo.apple.com^
 ||iadmusicmat.music.126.net^
 ||iadworkbench.apple.com^
 ||ifacelog.iqiyi.com^
@@ -22132,6 +22164,7 @@ zdalnakontrola.pl
 ||img.adnyg.com.w.kunlungr.com^
 ||img2.360buyimg.com^
 ||impression-asia.chinaliftoff.io^
+||inner-hw.huazirc.com^
 ||iot-eu-logser.realme.com^
 ||iot-logser.realme.com^
 ||ipv4.kkmh.com^
@@ -22149,6 +22182,7 @@ zdalnakontrola.pl
 ||ks-p2p.pull.yximgs.com^
 ||ks.ferlytc.com^
 ||ks.pull.yximgs.com^
+||kwpush.kuwo.cn^
 ||launcher.smart-tv.cn^
 ||launcherimg.smart-tv.cn^
 ||lh3.googleadsserving.cn^
@@ -22181,11 +22215,15 @@ zdalnakontrola.pl
 ||log.zijieapi.com^
 ||logrcv.aiclk.com^
 ||logrcv.yunxish.com^
+||logs-bigdata.yeehaw.com.cn^
 ||logtj.kugou.com^
+||logv2.ireader.com^
 ||logwebs.kugou.com^
+||lookup.api.bsb.baidu.com^
 ||luimg.baidu.com^
 ||m.ad.zhangyue.com^
 ||m.shenshiads.com^
+||m1.ad.10010.com^
 ||mapi.m.jd.com^
 ||masdkv6.3g.qq.com^
 ||mazu.m.qq.com^
@@ -22255,6 +22293,7 @@ zdalnakontrola.pl
 ||pl.cp31.ott.cibntv.net^
 ||pms.mb.qq.com^
 ||policy.video.ptqy.gitv.tv^
+||prom-sdkv2.jysper.net^
 ||promotion-partner.kuaishou.com^
 ||proxy.advp.apple.com^
 ||public.gdtimg.com^
@@ -22263,6 +22302,8 @@ zdalnakontrola.pl
 ||qn-cdnfile1pcdn.msstatic.com^
 ||qqdata.ab.qq.com^
 ||recommend-drcn.hms.dbankcloud.cn^
+||report.dxunion.cn^
+||report.tencentmusic.com^
 ||report.tv.kohesport.qq.com^
 ||res.hubcloud.com.cn^
 ||res1.hubcloud.com.cn^
@@ -22371,6 +22412,7 @@ zdalnakontrola.pl
 ||tracelog-debug.qquanquan.com^
 ||tracelog-debug.yunxish.com^
 ||track.lc.quark.cn^
+||tracker-prd.aldi.com.cn^
 ||tracker.gitee.com^
 ||tracking.rus.miui.com^
 ||tvapp.hpplay.cn^
@@ -22387,6 +22429,7 @@ zdalnakontrola.pl
 ||ulogjs.gifshow.com^
 ||umini.shujupie.com^
 ||union-mlog.bigda.com^
+||union-record.oss-cn-zhangjiakou.aliyuncs.com^
 ||union.baidu.cn^
 ||update.avlyun.sec.miui.com^
 ||update.lejiao.tv^
@@ -22444,6 +22487,7 @@ zdalnakontrola.pl
 ||yk-ssp-ad.cp31.ott.cibntv.net^
 ||ykad-data.cp31.ott.cibntv.net^
 ||ytx-file.110route.cn^
+||yumao.puata.info^
 ||zhihu-web-analytics.zhihu.com^
 ||zjres-ad.kajicam.com^
 ||zxid-m.mobileservice.cn^
@@ -40477,5 +40521,5 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 @@||*.protondb.pages.dev^
 
 
-! Total unique rules: 38379
-! Duplicates removed: 1684
+! Total unique rules: 38423
+! Duplicates removed: 1686
